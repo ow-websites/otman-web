@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Pizzeria Il Cavallino – Frankfurt am Main</title>
+<meta name="description" content="Echte italienische Küche, mit Liebe gemacht.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--dark:#1d2b24;--accent:#e4572e;--ink:#1b1b1b;--muted:#6b6b6b;--bg:#faf8f5;--card:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+a{color:inherit}
+.demo{position:fixed;top:0;left:0;right:0;z-index:20;background:#111;color:#fff;font-size:13px;text-align:center;padding:7px 12px}
+.demo b{color:var(--accent)}
+header{position:relative;min-height:92vh;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;padding:90px 20px 60px;overflow:hidden;
+background:radial-gradient(circle at 20% 20%,color-mix(in srgb,var(--accent) 45%,transparent),transparent 45%),radial-gradient(circle at 85% 80%,color-mix(in srgb,var(--accent) 30%,transparent),transparent 40%),var(--dark)}
+header::before{content:"🍕";position:absolute;font-size:46vmin;opacity:.07;right:-6vmin;bottom:-8vmin;transform:rotate(-12deg)}
+.badge{display:inline-block;font-size:13px;letter-spacing:.18em;text-transform:uppercase;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:6px 14px;margin-bottom:22px}
+h1{font-family:'Playfair Display',serif;font-size:clamp(40px,8vw,84px);line-height:1.05;font-weight:800}
+.tag{font-size:clamp(17px,2.4vw,22px);opacity:.9;margin:18px auto 34px;max-width:620px}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;border-radius:999px;font-weight:600;text-decoration:none;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.main{background:var(--accent);color:#111}
+.btn.ghost{border:1.5px solid rgba(255,255,255,.6);color:#fff}
+section{max-width:1040px;margin:0 auto;padding:80px 20px}
+h2{font-family:'Playfair Display',serif;font-size:clamp(30px,4.5vw,44px);margin-bottom:14px}
+.lead{color:var(--muted);font-size:18px;max-width:680px}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:34px}
+.dish{background:var(--card);border-radius:18px;padding:22px 24px;box-shadow:0 1px 2px rgba(0,0,0,.05),0 10px 30px -18px rgba(0,0,0,.25);border-left:4px solid var(--accent)}
+.dish h3{font-size:18px;margin-bottom:4px}
+.dish p{color:var(--muted);font-size:15px}
+.note{font-size:13px;color:var(--muted);margin-top:16px;font-style:italic}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:30px}
+.box{background:var(--card);border-radius:18px;padding:28px;box-shadow:0 10px 30px -18px rgba(0,0,0,.25)}
+.box h3{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:12px;filter:brightness(.8)}
+.box li{list-style:none;padding:6px 0;border-bottom:1px dashed #e6e1da}
+.box li:last-child{border:0}
+iframe{width:100%;height:320px;border:0;border-radius:18px;margin-top:24px;filter:saturate(.85)}
+footer{background:var(--dark);color:rgba(255,255,255,.75);text-align:center;padding:40px 20px;font-size:14px}
+footer strong{color:#fff}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="demo">✨ <b>Demo-Website</b> – unverbindlicher Entwurf von Otman Rahmani · rahmaniotman113@gmail.com · +491788270895</div>
+<header>
+  <div>
+    <span class="badge">🍕 Frankfurt am Main</span>
+    <h1>Pizzeria Il Cavallino</h1>
+    <p class="tag">Echte italienische Küche, mit Liebe gemacht.</p>
+    <div class="btns">
+      <a class="btn main" href="tel:+49695963331">📞 Jetzt anrufen</a>
+      <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Pizzeria%20Il%20Cavallino%20Koselstra%C3%9Fe%2046%2C%20Frankfurt%20am%20Main" target="_blank" rel="noopener">📍 Route planen</a>
+    </div>
+  </div>
+</header>
+<section class="reveal">
+  <h2>Herzlich willkommen</h2>
+  <p class="lead">Bei uns gibt es Pizza aus dem Steinofen, frische Pasta und Klassiker aus Italien – so, wie man sie dort isst. Ob schnelles Mittagessen, gemütlicher Abend oder zum Mitnehmen: Wir freuen uns auf Sie.</p>
+</section>
+<section class="reveal" style="padding-top:0">
+  <h2>Unsere Empfehlungen</h2>
+  <div class="menu">
+    <div class="dish"><h3>Pizza Margherita</h3><p>Tomaten, Mozzarella, frisches Basilikum</p></div>
+    <div class="dish"><h3>Pizza Diavola</h3><p>Scharfe Salami, Peperoni, Mozzarella</p></div>
+    <div class="dish"><h3>Spaghetti Carbonara</h3><p>Ei, Pecorino, Guanciale, schwarzer Pfeffer</p></div>
+    <div class="dish"><h3>Penne all’Arrabbiata</h3><p>Tomatensauce mit Knoblauch und Chili</p></div>
+    <div class="dish"><h3>Insalata Mista</h3><p>Gemischter Salat mit Hausdressing</p></div>
+    <div class="dish"><h3>Tiramisù</h3><p>Hausgemacht nach Familienrezept</p></div>
+  </div>
+  <p class="note">Beispielgerichte für die Demo – in der fertigen Website steht hier Ihre echte Speisekarte mit Preisen.</p>
+</section>
+<section class="reveal" style="padding-top:0">
+  <h2>Besuchen Sie uns</h2>
+  <div class="info">
+    <div class="box"><h3>Öffnungszeiten</h3><ul><li>Bitte telefonisch erfragen</li></ul></div>
+    <div class="box"><h3>Kontakt</h3><ul>
+      <li>📍 Koselstraße 46, Frankfurt am Main</li>
+      <li>📞 <a href="tel:+49695963331">+49 69 5963331</a></li>
+      
+      
+    </ul></div>
+  </div>
+  <iframe loading="lazy" title="Karte" src="https://www.openstreetmap.org/export/embed.html?bbox=8.6835514,50.1211669,8.6915514,50.1251669&layer=mapnik&marker=50.1231669,8.6875514"></iframe>
+</section>
+<footer>
+  <p><strong>Pizzeria Il Cavallino</strong> · Koselstraße 46, Frankfurt am Main</p>
+  <p style="margin-top:10px;opacity:.7">Demo erstellt von Otman Rahmani. Gefällt sie Ihnen? Melden Sie sich: rahmaniotman113@gmail.com · +491788270895</p>
+</footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
